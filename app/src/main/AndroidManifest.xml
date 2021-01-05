@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.teamcharizard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewMyTeamActivity"></activity>
+        <activity android:name=".ViewActionActivity" />
+        <activity android:name=".PickTeamActivity" />
+        <activity android:name=".ViewTeamsActivity" />
+        <activity android:name=".ViewGamesActivity" />
+        <activity android:name=".ChosePlayerActivity" />
+        <activity android:name=".AddStatsActivity" />
+        <activity android:name=".StartNewGameActivity" />
+
+    </application>
+
+</manifest>

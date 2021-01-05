@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#75A9FF</color>
+    <color name="colorPrimaryDark">#000EE1</color>
+    <color name="colorAccent">#FF612E</color>
+
+    <color name="cardview_light_background">#ffffff</color>
+
+    <color name="playerButtonBackground">#FF612E</color>
+    <color name="playerButtonSelected">#2E34FF</color>
+    <color name ="textNumber">#00ccff</color>
+</resources>
